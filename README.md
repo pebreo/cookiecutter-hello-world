@@ -13,14 +13,14 @@ Step 2. Run cookiecutter::
 
 Gotchas
 -------
-1) When using cookiecutter from a git repo, your top directory (the same level as your `cookiecutter.json`) should be 
+1) When using cookiecutter from a git repo, your top directory (the same level as your cookiecutter.json) should be 
 called `{{cookiecutter.repo_name}}`, otherwise you get an error.
 
 2) In your `cookiecutter.json`, make sure your directory variables are defined first, then filenames, then file contents.
 
 So given: `{{cookiecutter.repo_name}}/{{cookiecutter.filename}}/{{cookiecutter.content}}`
 
-Your cookiecutter.json would look like:
+Your `cookiecutter.json` would look like:
 
 ``` json
 
