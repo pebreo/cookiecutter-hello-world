@@ -1,16 +1,18 @@
 How To Run
-==========
+---------
 
-Step 1. Install cookiecutter
+Step 1. Install cookiecutter::
+   
    
     $ pip install cookiecutter      
 
-Step 2. Run cookiecutter 
+Step 2. Run cookiecutter:: 
+
 
     $ cookiecutter https://github.com/pebreo/cookiecutter-hello-world.git
 
 Gotchas
-======
+-------
 1) When using cookiecutter from a git repo, your top directory (the same level as your cookiecutter.json) should be 
 called `{{cookiecutter.repo_name}}`, otherwise you get an error.
 
@@ -19,10 +21,11 @@ So given: `{{cookiecutter.repo_name}}/{{cookiecutter.filename}}/{{cookiecutter.c
 
 Your cookiecutter.json would look like:
 
-
+``` json
 
     {
         "repo_name": "myrepo",
         "filename": "myfile",
         "mycontent": "mycontent"
     }
+```
