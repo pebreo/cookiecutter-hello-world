@@ -1,4 +1,5 @@
 {
-    "repo_name":"my_repo",
-	"greeting":"Hello world!"
+    "project_name": "project_name",
+    "repo_name":"repo_name",
+    "greeting":"Hello World!"
 }
