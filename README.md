@@ -30,7 +30,8 @@ Gotchas
 called `{{cookiecutter.repo_name}}`, otherwise you get an error.
 
 ```
-UPDATE: This is not the case anymore with the newest cookiecutter. You can name your top directory whatever you want, not just repo_name.
+UPDATE: This is not the case anymore with the newest cookiecutter. 
+You can name your top directory whatever you want, not just repo_name.
 ```
 
 
